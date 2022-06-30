@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAAZH1QF4sK02MEwzbFeeL5wAAAAACAAAAAAAQZgAAAAEAACAAAAB040+1oA3EQJKf4+dfFR/ce0lDEpw4AXLZ70lM2kMuyQAAAAAOgAAAAAIAACAAAACPga+YTlqL6i4cHhRTfc+fDffO59eNRu3eYXyctJ5OA4AAAACGkLJqfifZdUBMekVYHj0ESRXVjoiGY3oLaCKplDxZnbav5+Po0Z+ngx6kM84Wtv42cYAG7PA/5on9tXnYZCppBzYHpbz2Sc/h94d11jpSv8ieSMW0R7pvmA4G3L8KqN/AcNv0mhYUvjm1oaeEfW2w1p9nhl+Zez8JNAxNDGFAL0AAAAB+VnWUGrRn1IkYbXFMSiE6KglO2iAgSOd9tdAvSQCyD8bej4Eu88pJjL/zalh3dN5a79XTsLsZsiAwYirOOujk</EncryptedPassword>
+    <History>True|2022-06-30T10:13:28.0185924Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:bbadbserver.database.windows.net,1433%3bInitial Catalog=BBA_db%3bUser Id=hyle746%40bbadbserver%3bPassword=Soft807`</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="BBA.Data.ApplicationDbContext">
+      <Value>Data Source=tcp:bbadbserver.database.windows.net,1433%3bInitial Catalog=BBA_db%3bUser Id=hyle746%40bbadbserver%3bPassword=Soft807`</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
